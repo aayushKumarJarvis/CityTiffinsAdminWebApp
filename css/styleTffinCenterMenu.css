@@ -1,0 +1,54 @@
+@import url('bootstrap.min.css');
+@import url('bootstrap-responsive.min.css');
+
+body {
+
+    background:url("http://www.shutterstock.com/blog/wp-content/uploads/2013/05/shutterstock_83564761.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+h2 {
+    margin-top: 1%;
+    margin-left: 6%;
+}
+
+h3 {
+    margin-top: 1%;
+    text-align: center;
+}
+#northIndian {
+    margin-left: 5%;
+
+}
+
+#dynamicInputForVeg, #dynamicInputForNonVeg  {
+    margin-left: 5px;
+}
+.input-large,.input-small {
+    height: 30px;
+}
+#veg, #nonveg {
+
+     font-size: 15px;
+     padding-top: 8px;
+     padding-left: 5px;
+ }
+
+
+#submenu {
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #333;
+    border: 1px solid #e5e5e5;
+    box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+    padding-bottom: 10px;
+    width: 40%;
+    height: auto;
+    display:table;
+    overflow:hidden;
+}

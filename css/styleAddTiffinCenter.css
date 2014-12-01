@@ -1,0 +1,33 @@
+
+@import url('bootstrap.min.css');
+@import url('bootstrap-responsive.min.css');
+/* New styles */
+
+label.valid {
+	width: 24px;
+	height: 24px;
+	background: url(/img/valid.png) center center no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+}
+label.error {
+	font-weight: bold;
+	color: red;
+	padding: 2px 8px;
+	margin-top: 2px;
+}
+
+body {
+	z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background: url('http://www.shutterstock.com/blog/wp-content/uploads/2013/05/shutterstock_83564761.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.span12 {
+
+	padding: 20px;
+}
