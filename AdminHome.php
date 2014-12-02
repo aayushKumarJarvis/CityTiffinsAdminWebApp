@@ -1,10 +1,11 @@
-o<?php
-/*
+<?php
+
 session_start();
 
-if(empty($_SESSION['login_user']))
-    header('Location: AdminLogin.php');
-*/?>
+if(!empty($_SESSION['login_user']))
+    header('Location: AdminHome.php');
+?>
+
 
 <!doctype html>
 <html lang="en">
@@ -26,7 +27,7 @@ if(empty($_SESSION['login_user']))
     <div id="main">
         <h1><?php echo $_POST['username']?>Welcome to City Tiffins</h1>
 
-        <a href="#" class="btn btn-primary btn-large"><i class="icon-white icon-plus"></i>Add Tiffin Center</a>
+        <a href="AddTiffinCenter.php" class="btn btn-primary btn-large"><i class="icon-white icon-plus"></i>Add Tiffin Center</a>
         <br>
         <br>
         <a href="#" class="btn btn-success btn-large"><i class="icon-white icon-align-justify"></i>Show Tiffin Centers</a>

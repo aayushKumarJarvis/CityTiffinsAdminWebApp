@@ -36,11 +36,12 @@ if(!empty($_SESSION['login_user']))
                     success: function(data) {
                         if(data == 2) {
                             $("body").load("AdminHome.php").hide().fadeIn(1500).delay(6000);
+                            window.location.href = "AdminHome.php";
                         }
                         else if(data == 0) {
-                         $('#box').shake();
-                         $("#login").val('Login')
-                         $("#error").html("<span style='color:#cc0000'>Error:</span>Username Does Not Exist ");
+                            $('#box').shake();
+                            $("#login").val('Login')
+                            $("#error").html("<span style='color:#cc0000'>Error:</span>Username Does Not Exist ");
                         }
                         else {
                             $('#box').shake();
